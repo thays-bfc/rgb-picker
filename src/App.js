@@ -9,13 +9,8 @@ function App() {
   const [greenTone, setGreenTone] = useState(0);
 
   function getRGBColor() {
-    const actualBox = document.querySelector('.rectangle');
-    actualBox.style.backgroundColor = `rgb(${redTone}, ${blueTone}, ${greenTone})`;
-
+    //TODO
   }
-  // <TextInput label="Red" name="red" value={redTone}></TextInput>
-  // <TextInput label="Blue" name="blue"></TextInput>
-  // <TextInput label="Green" name="green"></TextInput>
   return (
     <div>
       <label>Red</label>
@@ -26,7 +21,8 @@ function App() {
       <input type="number" name="green" value={greenTone} min="0" max="250" maxLength="3" onChange={event => setGreenTone(event.target.value)} />
       <button type="button" onClick={getRGBColor}>Find Color</button>
       <br></br>
-      <div className="rectangle"> </div>
+      <div className="rectangle" style={{ backgroundColor: `rgb(${redTone}, ${blueTone}, ${greenTone})` }}>
+      </div>
     </div>
   );
 }
