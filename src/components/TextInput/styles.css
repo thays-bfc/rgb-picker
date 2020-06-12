@@ -1,0 +1,14 @@
+.labelTextInput {
+    color:black;
+    padding: 8px 15px;
+    margin-top: 15px;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  div input {
+    padding: 8px;
+    margin-right: 5px;
+    width: 60px;
+  }

@@ -13,15 +13,6 @@ div {
   margin: 20px;
 }
 
-div li {
-  display: flex;
-  align-items: center;
-}
-
-div li + li {
-  margin-top: 15px;
-}
-
 button {
   background: #7159c1;
   color: #fff;
@@ -33,28 +24,17 @@ button {
   font-size: 14px;
 }
 
-div li button {
-  margin: 0 15px;
-  background: #ca4949;
+.rectangle {
+  display: inline-block;
+  width: 450px;
+  height: 100px;
 }
 
-div label {
+label {
   color:black;
   padding: 8px 15px;
   margin-top: 15px;
   margin-right: 5px;
   font-weight: bold;
-  font-size: 14px;
-}
-
-div input {
-  padding: 8px;
-  margin-right: 5px;
-  width: 60px;
-}
-
-.rectangle {
-  display: inline-block;
-  width: 450px;
-  height: 100px;
+  font-size: 20px;
 }
